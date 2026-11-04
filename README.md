@@ -72,47 +72,6 @@ ChatGPT was used as an AI co-pilot to help generate application code, explain im
 
 The generated code was reviewed and tested manually. During development, dependency vulnerabilities were identified through npm auditing, and unnecessary dependencies were removed.
 
-### AI Prompts and Critique
-
-### AI Prompts and Critique
-
-I used ChatGPT as an AI co-pilot throughout the development of SecureAccess. AI helped me understand authentication, generate code, troubleshoot errors, and test the application.
-
-**1. Authentication and Registration**
-
-AI assistance: Generate an Express application with user registration, login, SQLite storage, and bcrypt password hashing.
-
-**Critique:** I verified that passwords were hashed rather than stored as plaintext. I also tested successful registration, duplicate emails, and invalid login credentials.
-
-**2. Role-Based Access Control (RBAC)**
-
-AI assistance: Implement middleware to distinguish authenticated users from administrators.
-
-**Critique:** I tested the backend endpoints with different account roles. A regular user received `403 Forbidden` when accessing the admin endpoint, while an administrator received `200 OK`. An unauthenticated request received `401 Unauthorized`.
-
-**3. Session Management**
-
-AI assistance: Implement session-based authentication and logout using Express sessions.
-
-**Critique:** I verified that logging out invalidated the session and prevented further access to the protected dashboard. I also identified that the default in-memory session store is not suitable for production.
-
-**4. Frontend Development**
-
-AI assistance: Create HTML forms and JavaScript `fetch()` requests to connect the frontend to the backend.
-
-**Critique:** During testing, I discovered that the registration form was not working because the JavaScript loaded before the HTML elements and some form inputs were duplicated. I corrected the HTML structure and confirmed that registration and login worked.
-
-**5. Dependency Security**
-
-AI assistance: Identify and troubleshoot npm dependency vulnerabilities.
-
-**Critique:** I reviewed npm audit results and removed unnecessary dependencies, including `connect-sqlite3` and `nodemon`, which reduced the reported vulnerabilities to zero at the time of testing.
-
-**Overall Reflection**
-
-AI helped speed up development, but I still needed to review, test, and debug the generated code. I learned that working functionality alone does not guarantee security. Testing authentication, authorization, password storage, and session behavior was essential.
-
-
 ## Demo Video
 
 (https://scedu-my.sharepoint.com/:v:/r/personal/victoriapaulina_sa1_seattlecolleges_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvictoriapaulina_sa1_seattlecolleges_edu%2FDocuments%2FRecordings%2FSecureAccess%20Assignment%20Victoria%20Salomon-20261103_194741-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&share=cQqahqwnwYrjSom2C0hFruICEgUCZ0EhfBsFGV-0WHv1T0Iayg)
