@@ -115,4 +115,5 @@ AI helped speed up development, but I still needed to review, test, and debug th
 
 ## Demo Video
 
-*Add the video link after recording the walkthrough.*
+(https://scedu-my.sharepoint.com/:v:/r/personal/victoriapaulina_sa1_seattlecolleges_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fvictoriapaulina_sa1_seattlecolleges_edu%2FDocuments%2FRecordings%2FSecureAccess%20Assignment%20Victoria%20Salomon-20261103_194741-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&share=cQqahqwnwYrjSom2C0hFruICEgUCZ0EhfBsFGV-0WHv1T0Iayg)
+
