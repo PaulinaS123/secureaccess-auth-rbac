@@ -1,6 +1,6 @@
 ## AI-Assisted Development: Prompts and Critique
 
-For this assignment, I used ChatGPT as an AI co-pilot to help develop, debug, and test SecureAccess. The following are comprehensive, reconstructed prompts representing the development tasks. They are not verbatim transcripts.
+For this assignment, I used ChatGPT as an AI co-pilot to help develop, debug, and test SecureAccess. The following are comprehensive, reconstructed prompts representing the development tasks. 
 
 ### Prompt 1: Build the Full-Stack Authentication Application
 
