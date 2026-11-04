@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureAccess | Login</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>SecureAccess</h1>
+  <p>Welcome! Log in to your account.</p>
+
+  <!-- LOGIN FORM -->
+  <form id="login-form">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      autocomplete="email"
+      required
+    >
+
+    <label for="password">Password</label>
+    <input
+      type="password"
+      id="password"
+      autocomplete="current-password"
+      required
+    >
+
+    <button type="submit">Log In</button>
+  </form>
+
+  <p id="message"></p>
+
+  <hr>
+
+  <!-- REGISTRATION FORM -->
+  <h2>Create an Account</h2>
+
+  <form id="register-form">
+    <label for="register-username">Username</label>
+    <input
+      type="text"
+      id="register-username"
+      autocomplete="username"
+      required
+    >
+
+    <label for="register-email">Email</label>
+    <input
+      type="email"
+      id="register-email"
+      autocomplete="email"
+      required
+    >
+
+    <label for="register-password">Password</label>
+    <input
+      type="password"
+      id="register-password"
+      autocomplete="new-password"
+      minlength="8"
+      required
+    >
+
+    <button type="submit">Register</button>
+  </form>
+
+  <p id="register-message"></p>
+
+  <!-- LOAD JAVASCRIPT AFTER HTML -->
+
+<hr>
+
+<section id="dashboard-section">
+  <h2>User Dashboard</h2>
+
+  <button id="dashboard-button" type="button">
+    View My Dashboard
+  </button>
+
+  <p id="dashboard-message"></p>
+</section>
+
+<hr>
+
+<section id="admin-section">
+  <h2>Admin Dashboard</h2>
+  <p>Only administrators can view registered users.</p>
+
+  <button id="admin-button" type="button">
+    View All Users
+  </button>
+
+  <p id="admin-message"></p>
+  <ul id="admin-users"></ul>
+</section>
+
+  <script src="/script.js"></script>
+</body>
+</html>

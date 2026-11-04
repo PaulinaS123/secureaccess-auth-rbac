@@ -1,0 +1,82 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fa;
+  color: #253047;
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+h1 {
+  color: #2547a8;
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 24px;
+}
+
+form, section {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd3df;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2547a8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #19347e;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #7298ff;
+  outline-offset: 2px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+#message,
+#register-message,
+#dashboard-message,
+#admin-message {
+  font-weight: bold;
+}
+
+#admin-users li {
+  padding: 8px 0;
+}
